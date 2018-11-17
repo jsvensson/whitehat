@@ -646,14 +646,6 @@
     content: ",";
     padding-right: 5px;
   }
-  article code {
-    padding: 2px 4px;
-    margin-left: 2px;
-    margin-right: 2px;
-    color: #c7254e;
-    white-space: normal;
-    border-radius: 0;
-  }
   article p {
     margin: 2rem 0;
     line-height: 1.8;
