@@ -1,0 +1,15 @@
+<header>
+<div class="site-branding">
+      <h1 class="site-title">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      </h1>
+      {{ if isset .Site.Params "subtitle" }}<p class="site-description">{{ .Site.Params.subtitle }}</p>{{ end }}
+    </div>
+    <nav class="site-navigation">
+      <ul>
+          <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/archives">Archives</a></li>
+      </ul>
+    </nav>
+</header>

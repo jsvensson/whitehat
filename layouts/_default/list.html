@@ -1,0 +1,18 @@
+{{ define "main" }}
+<main class="site-main posts-loop">
+  {{ range .Pages }}
+  <article>
+    {{- partial "article-header" . -}}
+
+    <div class="article-content">
+      <div class="entry">
+        {{ .Summary }}
+      </div>
+    </div>
+
+    {{- partial "article-footer" . -}}
+  </article>
+  {{ end }}
+  <nav class="pagination"></nav>
+</main>
+{{ end }}

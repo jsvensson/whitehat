@@ -1,21 +1,17 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "Reducer"
+name = "Whitehat"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
+licenselink = "https://github.com/jsvensson/whitehat/blob/master/LICENSE"
+description = "A port of the Hacker theme for Hexo."
+homepage = "https://github.com/jsvensson/whitehat"
 tags = []
 features = []
-min_version = "0.41"
+min_version = "0.51"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Johan Svensson"
+  homepage = "https://github.com/jsvensson"
 
-# If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Hacker"
+  homepage = "https://github.com/CodeDaraW/Hacker"
+  repo = "https://github.com/CodeDaraW/Hacker"

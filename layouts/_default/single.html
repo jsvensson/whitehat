@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="site-main posts-loop">
+    <article>
+        {{- partial "article-header" . -}}
+
+        <div class="article-content">
+            <div class="entry">
+                {{ .Content }}
+            </div>
+        </div>
+
+        {{- partial "article-footer" . -}}
+    </article>
+</main>
+{{ end }}

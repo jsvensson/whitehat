@@ -1,0 +1,9 @@
+{{ if or .Params.categories .Params.tags .Params.series }}
+  {{ with .Params.categories }}
+  {{ range . }}<a href="/categories/{{ . | urlize }}">{{ . }}</a> {{ end }}
+  {{ end }}
+
+  {{ with .Params.tags }}
+  {{ range . }}<a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}
+  {{ end }}
+{{ end }}  
