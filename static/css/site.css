@@ -646,6 +646,9 @@
     content: ",";
     padding-right: 5px;
   }
+  article code {
+    color: #c7254e;
+  }
   article p {
     margin: 2rem 0;
     line-height: 1.8;
